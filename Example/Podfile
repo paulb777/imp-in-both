@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'imp-in-both_Example' do
+  pod 'imp-in-both', :path => '../'
+
+  target 'imp-in-both_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
