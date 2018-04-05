@@ -31,6 +31,7 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'imp-in-both/Classes/**/*'
+  s.static_framework = true
   
   # s.resource_bundles = {
   #   'imp-in-both' => ['imp-in-both/Assets/*.png']
@@ -38,5 +39,5 @@ TODO: Add long description of the pod here.
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'FirebaseInstanceID'
 end
