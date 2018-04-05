@@ -1,4 +1,4 @@
-use_modular_headers!
+#use_frameworks!
 
 target 'imp-in-both_Example' do
   pod 'imp-in-both', :path => '../'
